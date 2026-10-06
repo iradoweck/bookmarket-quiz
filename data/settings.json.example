@@ -1,0 +1,9 @@
+{
+    "admin_user": "admin",
+    "admin_pass_hash": "GERAR_COM_PHP: password_hash('SUA_SENHA', PASSWORD_DEFAULT)",
+    "survey_name": "BookMarket Research Moçambique",
+    "interviewer_default": "Pesquisador",
+    "target_goal": 10,
+    "cities": ["Nampula", "Nacala", "Pemba", "Maputo", "Matola",, "Outra"],
+    "currency": "MT"
+}

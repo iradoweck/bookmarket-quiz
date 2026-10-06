@@ -1,0 +1,11 @@
+<FilesMatch "\.(json|log)$">
+    Require all denied
+</FilesMatch>
+
+# Fallback para servidores cPanel com Apache 2.2 antigo:
+<IfModule !mod_authz_core.c>
+    Order allow,deny
+    Deny from all
+</IfModule>
+
+Options -Indexes
